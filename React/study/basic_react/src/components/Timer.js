@@ -23,3 +23,5 @@ const Timer = () => {
 }
 
 export default Timer
+
+// setCount(count+1)ではなく直前の状態を受け取り変更 setCount(prev => prev+1)

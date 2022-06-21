@@ -16,3 +16,6 @@ const Basic1 = () => {
 }
 
 export default Basic1
+
+// 関数コンポーネントの型を 'rafce' で一発補完
+// JSXは必ず　<>要素</>　もしくは一つのタグで囲ってreturn

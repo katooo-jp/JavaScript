@@ -23,3 +23,7 @@ const Basic2 = () => {
 }
 
 export default Basic2
+
+
+// リストはユニークなkey key="key" を与えないとエラーが出る
+// ...は要素ごとに分解した処理を書ける。

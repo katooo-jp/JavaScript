@@ -17,3 +17,6 @@ const BasicUseEffect = () => {
 }
 
 export default BasicUseEffect
+
+// useEffectはGETの時のリソースfatch処理などに使う
+// 第２引数は 指定なしでrender毎に処理が実行 []ならば最初のrenderのみ [state]であれば状態が変わる毎に処理が実行される
