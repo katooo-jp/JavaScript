@@ -9,3 +9,6 @@
 
 + APIの使い方(Fatchとaxios)
 >src/components/ApiFatch.js
+
++ createContext、useContext
+>src/contexts/AppContext.js
