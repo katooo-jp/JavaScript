@@ -12,3 +12,12 @@
 
 + createContext、useContext
 >src/contexts/AppContext.js
+
++ useReducer
+>src/components/BasicReducer.js
+
++ Reducer + Context
+>src/components/CompC.js
+
++ useMemo
+>src/components/Memo.js
