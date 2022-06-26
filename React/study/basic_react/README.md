@@ -21,3 +21,6 @@
 
 + useMemo
 >src/components/Memo.js
+
++ useCallback, React.memo
+>src/components/CountClick.js
