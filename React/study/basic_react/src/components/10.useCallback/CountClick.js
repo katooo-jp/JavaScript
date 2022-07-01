@@ -18,3 +18,4 @@ export default React.memo(CountClick)
 // useCallback()
 // 関数に対して変化した内容にだけレンダリングするためにuseCallbackを使う
 // 第２引数にuseEffect同様に[]でレンダリングする条件のStateを与える
+// 更に最適化するため、空で[]を渡せばクリック毎のレンダリングを初回のみに抑えることができる。

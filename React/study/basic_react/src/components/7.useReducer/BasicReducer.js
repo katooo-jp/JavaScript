@@ -28,4 +28,7 @@ const BasicReducer = () => {
 
 export default BasicReducer
 
+// ・useReducerのイメージ
+// ステートの値を更新するための関数を生成する関数
+
 // 状態管理の関数を作って、useReducerへ初期ステートと一緒に渡す

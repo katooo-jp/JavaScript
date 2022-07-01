@@ -41,6 +41,10 @@ const Memo = () => {
 
 export default Memo
 
+// ・useMemo
+// useEffectと同じく不要なレンダリングを防ぐ
+// 関数の結果を保持してレンダリング時の再評価をスキップする
+
 // Count1のボタンを押すとcount1のStateが変化する。isOddにより表示を変化している
 // isOdd()は処理に時間が掛かる様になっており、count2のボタンを押した時にもレンダリングされてisOddが再評価され処理に時間が掛かる
 // count1の変化の時だけに評価をするようにするために useMemo() を使う

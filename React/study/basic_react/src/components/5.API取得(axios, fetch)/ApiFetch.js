@@ -19,12 +19,13 @@ const ApiFetch = () => {
         // })
         // ーーーーーーーーーーーーーーーーーーーーー
 
-        // javascriptのfetchでの方法
+        // -------- javascriptのfetchでの方法 ----------
         fetch(`https://jsonplaceholder.typicode.com/posts/${id}`, {method: 'GET'})
         .then(res => res.json())
         .then(data => {
             setPosts(data)
         })
+        // --------------------------------------------
     },[clicked])
 
     return (

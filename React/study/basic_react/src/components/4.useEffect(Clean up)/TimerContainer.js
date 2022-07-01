@@ -6,6 +6,7 @@ const TimerContainer = () => {
 
     return (
         <div>
+            {/* ボタンでタイマーの表示をスイッチ */}
             <button onClick={() => setDisplay(!display)}>Switch Timer</button>
             { display && <Timer /> }
         </div>

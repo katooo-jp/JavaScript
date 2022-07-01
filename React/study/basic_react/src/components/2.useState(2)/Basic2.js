@@ -10,16 +10,16 @@ const Basic2 = () => {
         }]);
     }
 
-  return (
-    <>
-    <button onClick={newProduct}>Add new product</button>
-    <ul>
-        {products.map(product => (
-            <li key={product.id}>{product.name} id: {product.id}</li>
-        ))}
-    </ul>
-    </>
-  )
+    return (
+        <>
+        <button onClick={newProduct}>Add new product</button>
+        <ul>
+            {products.map(product => (
+                <li key={product.id}>{product.name} id: {product.id}</li>
+            ))}
+        </ul>
+        </>
+    )
 }
 
 export default Basic2

@@ -7,10 +7,11 @@ const Basic1 = () => {
         <>
         <form>
             <input type="text" value={product.name} onChange={event => {setProducts({...product, name: event.target.value})}}/>
+            <br />
             <input type="text" value={product.price} onChange={event => {setProducts({...product, price: event.target.value})}}/>
         </form>
-        <h1>Product name is {product.name}</h1>
-        <h1>Product price is {product.price}</h1>
+        <h3>Product name is {product.name}</h3>
+        <h3>Product price is {product.price}</h3>
         </>
     )
 }
